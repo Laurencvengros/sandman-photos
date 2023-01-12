@@ -1,0 +1,35 @@
+.homePhoto{
+ height: 100%
+}
+
+.heading{
+   margin-top: 50px
+    
+}
+
+.links{
+    margin-right: 10px;
+    text-decoration: none;
+    color: black
+    
+}
+
+.margin{
+    margin-top: 400px;
+}
+
+.homeIcons{
+    display: block;
+    text-align: center;
+    line-height: 100px;
+    margin-top: 350px
+}
+@media screen and (max-width:767px) {
+    .margin{
+        margin-top: 100px
+    }
+    .homeIcons{
+        margin-top: 100px
+    }
+    
+}
