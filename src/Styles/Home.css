@@ -1,21 +1,37 @@
-.homePhoto{
- height: 100%
+.homeImg{
+   height: 100%;
+   width: auto;
+   
+   object-fit: cover;
+ 
 }
 
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+    padding-left:0;
+    padding-right:0
+}
+
+
+
 .heading{
-   margin-top: 50px
+   margin-top: 50px;
+   font-size: 40px;
     
 }
 
 .links{
     margin-right: 10px;
     text-decoration: none;
-    color: black
+    color: black;
+    font-size: 25px
     
 }
 
 .margin{
-    margin-top: 400px;
+    margin-top: 360px;
 }
 
 .homeIcons{
@@ -24,12 +40,19 @@
     line-height: 100px;
     margin-top: 350px
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:991px) {
     .margin{
-        margin-top: 100px
+        margin-top: 50px
     }
     .homeIcons{
-        margin-top: 100px
+        margin-top: 20px
     }
+    .homeImg{
+        height:67vh;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+   
     
 }

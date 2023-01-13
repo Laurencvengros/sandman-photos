@@ -15,29 +15,32 @@ function Home() {
     return (
       <React.Fragment>
         <IconContext.Provider value={{ color: 'black', size: '2em' }}>
-            <Container fluid>
-                    <Row >
-                        <Col xs={12} sm={12} md={6} >
-                            <img className='img-fluid '  src={homePhoto} alt='self portrait' />
+            <Container fluid className="no-gutters">
+                    <Row className="no-gutters">
+                        <Col xs={12} sm={12} md={12} lg={6} className="no-gutters">
+                            
+                             <img className='img-fluid homeImg ' src={homePhoto} alt='self portrait' />
+                            
                         </Col>
-                        <Col xs={12} sm={12} md={6} className='heading'>Sandman Photos
+                        <Col xs={12} sm={12} md={12} lg={6} >
+                            <div className='heading'>Sandman Photos</div>
                             <div className="margin">
-                                <Link className="links" to="/professional">Professional</Link>
-                                <Link className="links" to="/personal">Personal</Link>
-                                <Link className="links" to="/about">About</Link>
+                                <Link className="links" to="/professional">Professional |</Link>
+                                <Link className="links" to="/personal">Personal |</Link>
+                                <Link className="links" to="/about">About |</Link>
                                 <Link className="links" to="/contact">Contact</Link>
                             </div>
                             <div className='homeIcons'>
-                                <a style={{marginRight:"30px"}} href= 'mailto:l.cvengros@icloud.com'>
+                                <a style={{marginRight:"30px"}} href= 'mailto:AlexSteinkamp22@gmail.com'>
                                     <FaEnvelope/>
 
                                 </a>
                             
-                                <a style={{marginRight:"30px"}}  href= 'https://github.com/Laurencvengros'>
+                                <a style={{marginRight:"30px"}}  href= 'https://instagram.com/sandman.photos'>
                                     <FaInstagram/> 
                                 </a>
                             
-                                <a href= 'https://www.linkedin.com/in/lauren-cvengros-a00957249/'>
+                                <a href= 'https://www.facebook.com/profile.php?id=100089348201674'>
                                 <FaFacebook/> 
                                 </a>
                             </div>
