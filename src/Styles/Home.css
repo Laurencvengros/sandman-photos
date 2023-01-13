@@ -19,15 +19,19 @@
 .heading{
    margin-top: 50px;
    font-size: 40px;
+   color: rgb(88, 131, 117)
     
 }
 
 .links{
     margin-right: 10px;
     text-decoration: none;
-    color: black;
+    color: rgb(87, 87, 87);
     font-size: 25px
     
+}
+.links:hover{
+    color: rgb(88, 131, 117)
 }
 
 .margin{
@@ -38,7 +42,8 @@
     display: block;
     text-align: center;
     line-height: 100px;
-    margin-top: 350px
+    margin-top: 350px;
+    
 }
 @media screen and (max-width:991px) {
     .margin{

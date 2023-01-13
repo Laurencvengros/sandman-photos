@@ -14,7 +14,7 @@ import '../Styles/Home.css'
 function Home() {
     return (
       <React.Fragment>
-        <IconContext.Provider value={{ color: 'black', size: '2em' }}>
+        <IconContext.Provider value={{ color: 'rgb(88, 131, 117)', size: '2em' }}>
             <Container fluid className="no-gutters">
                     <Row className="no-gutters">
                         <Col xs={12} sm={12} md={12} lg={6} className="no-gutters">
@@ -23,7 +23,7 @@ function Home() {
                             
                         </Col>
                         <Col xs={12} sm={12} md={12} lg={6} >
-                            <div className='heading'>Sandman Photos</div>
+                            <div className='heading'>Sandman Photography</div>
                             <div className="margin">
                                 <Link className="links" to="/professional">Professional |</Link>
                                 <Link className="links" to="/personal">Personal |</Link>

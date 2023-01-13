@@ -15,7 +15,7 @@ return (
 
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
        <Container className="header" >
-       <NavLink className='logo' to="/home" >*LOGO*</NavLink>
+       <NavLink className='logo' to="/" >*LOGO*</NavLink>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
            <Navbar.Collapse id="responsive-navbar-nav">
              <Nav className="ms-auto tab" >
