@@ -8,6 +8,14 @@ import SnowBus from '../assets/GrandRapids/GR_SnowBus.jpg'
 import Germany from '../assets/Germany-2022/Tyler.jpg'
 import '../Styles/Work.css'
 import { Link } from 'react-router-dom';
+import WebFont from 'webfontloader';
+
+WebFont.load({
+   google: {
+     families: ['Sofia Sans', 'Sofia Sans Condensed']
+   }
+ });
+
 
 
 function Personal(){
@@ -23,7 +31,7 @@ function Personal(){
                         
                             <div className="imagebox">
                             <img className=' resize ' src={SnowBus} alt='Snow Bus' />
-                                <div className="caption">GRAND RAPIDS</div>
+                                <div className="caption" style={{fontFamily: 'Sofia Sans Condensed'}}>GRAND RAPIDS</div>
                             </div>
                         </Link>
                     </Col>
@@ -33,11 +41,11 @@ function Personal(){
             <Container fluid className="containers">
                 <Row className="row">
                     <Col className="col">
-                        <Link to="/germany-2022">
+                        <Link to="/germany2022">
                             
                             <div className="imagebox">
                             <img className=' resize ' src={Germany} alt='Tyler with Mountasin' />
-                                <div className="caption">GERMANY 2022</div>
+                                <div className="caption" style={{fontFamily: 'Sofia Sans Condensed'}}>GERMANY 2022</div>
                             </div>
                         </Link>
                     </Col>

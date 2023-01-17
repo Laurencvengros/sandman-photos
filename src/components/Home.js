@@ -10,6 +10,12 @@ import Col from 'react-bootstrap/Col';
 import homePhoto from '../assets/Self_Portrait.jpg';
 import '../Styles/Home.css'
 
+WebFont.load({
+    google: {
+      families: ['Sofia Sans Condensed']
+    }
+  });
+
 
 function Home() {
     return (
@@ -23,12 +29,12 @@ function Home() {
                             
                         </Col>
                         <Col xs={12} sm={12} md={12} lg={6} >
-                            <div className='heading'>Sandman Photography</div>
+                            <div className='heading' style={{fontFamily: 'Sofia Sans Condensed'}}>SANDMAN PHOTOGRAPHY</div>
                             <div className="margin">
-                                <Link className="links" to="/professional">Professional |</Link>
-                                <Link className="links" to="/personal">Personal |</Link>
-                                <Link className="links" to="/about">About |</Link>
-                                <Link className="links" to="/contact">Contact</Link>
+                                <Link className="links" to="/professional" style={{fontFamily: 'Sofia Sans Condensed'}}>PROFESSIONAL |</Link>
+                                <Link className="links" to="/personal" style={{fontFamily: 'Sofia Sans Condensed'}}>PERSONAL |</Link>
+                                <Link className="links" to="/about" style={{fontFamily: 'Sofia Sans Condensed'}}>ABOUT |</Link>
+                                <Link className="links" to="/contact" style={{fontFamily: 'Sofia Sans Condensed'}}>CONTACT</Link>
                             </div>
                             <div className='homeIcons'>
                                 <a style={{marginRight:"30px"}} href= 'mailto:AlexSteinkamp22@gmail.com'>

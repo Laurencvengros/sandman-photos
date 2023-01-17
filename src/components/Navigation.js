@@ -7,23 +7,29 @@ import Navbar from 'react-bootstrap/Navbar';
 import '../Styles/Navbar.css'
 import WebFont from 'webfontloader';
 
+WebFont.load({
+   google: {
+     families: ['Sofia Sans', 'Sofia Sans Condensed']
+   }
+ });
+
 function Navigation(){
 
 return (
 
 
 
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand="lg" className='background'>
        <Container className="header" >
        <NavLink className='logo' to="/" >*LOGO*</NavLink>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
            <Navbar.Collapse id="responsive-navbar-nav">
              <Nav className="ms-auto tab" >
                
-                 <NavLink className='tabs' to="/professional" >Professional</NavLink>
-                 <NavLink className='tabs' to="/personal" >Personal</NavLink>
-                 <NavLink className='tabs' to="/about" >About</NavLink>
-                 <NavLink className='tabs' to="/contact" >Contact</NavLink>
+                 <NavLink className='tabs' to="/professional" style={{fontFamily: 'Sofia Sans '}}>PROFESSIONAL</NavLink>
+                 <NavLink className='tabs' to="/personal" style={{fontFamily: 'Sofia Sans'}} >PERSONAL</NavLink>
+                 <NavLink className='tabs' to="/about" style={{fontFamily: 'Sofia Sans '}} >ABOUT</NavLink>
+                 <NavLink className='tabs' to="/contact"  style={{fontFamily: 'Sofia Sans '}} >CONTACT</NavLink>
              </Nav>
            </Navbar.Collapse>
         </Container>

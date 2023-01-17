@@ -7,6 +7,14 @@ import Navigation from '../components/Navigation'
 import copperCoin from '../assets/copper-coin/Copper_Coin_Shop.jpg'
 import '../Styles/Work.css'
 import { Link } from 'react-router-dom';
+import WebFont from 'webfontloader';
+
+WebFont.load({
+   google: {
+     families: ['Sofia Sans', 'Sofia Sans Condensed']
+   }
+ });
+
 
 
 function Professional(){
@@ -22,7 +30,7 @@ function Professional(){
                             
                             <div className="imagebox">
                             <img className=' resize ' src={copperCoin} alt='copper coin' />
-                                <div className="caption">COPPER COIN</div>
+                                <div className="caption" style={{fontFamily: 'Sofia Sans Condensed'}}>COPPER COIN</div>
                             </div>
                         </Link>
                     </Col>

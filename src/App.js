@@ -10,6 +10,7 @@ import Professional from './components/Professional';
 import Personal from './components/Personal'
 import CopperCoin from './Pages/copperCoin';
 import GrandRapids from './Pages/grandRapids'
+import Germany from './Pages/germany2022'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path='/personal' element ={<Personal/>}/>
           <Route path='/CopperCoin' element={<CopperCoin/>}/>
           <Route path='/GrandRapids' element={<GrandRapids/>}/>
+          <Route path='/germany2022' element={<Germany/>}/>
           
         </Routes>
       </Router>
