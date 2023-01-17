@@ -2,6 +2,7 @@ import Navigation from '../components/Navigation'
 import React from 'react';
 import {MDBContainer, MDBCol, MDBRow,} from 'mdb-react-ui-kit';
 import '../Styles/copperCoin.css'
+import copperCoin2 from '../assets/copper-coin/Copper_Coin_Shop2.jpg'
 
 export default function App() {
   return (
@@ -10,7 +11,7 @@ export default function App() {
     <MDBRow className='margins'>
       <MDBCol lg={4} md={12} className='mb-4 mb-lg-0'>
         <img
-          src='https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp'
+          src={copperCoin2}
           className='w-100 shadow-1-strong rounded mb-4'
           alt='Boat on Calm Water'
         />

@@ -7,7 +7,9 @@ import Footer from './components/Footer';
 import About from './components/About';
 import Home from './components/Home';
 import Professional from './components/Professional';
+import Personal from './components/Personal'
 import CopperCoin from './Pages/copperCoin';
+import GrandRapids from './Pages/grandRapids'
 
 function App() {
   return (
@@ -18,7 +20,10 @@ function App() {
           <Route path="/"  element={<Home/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/professional' element={<Professional/>}/>
+          <Route path='/personal' element ={<Personal/>}/>
           <Route path='/CopperCoin' element={<CopperCoin/>}/>
+          <Route path='/GrandRapids' element={<GrandRapids/>}/>
+          
         </Routes>
       </Router>
     
