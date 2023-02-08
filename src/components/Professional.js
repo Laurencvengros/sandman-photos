@@ -8,6 +8,8 @@ import copperCoin from '../assets/copper-coin/Copper_Coin_Shop.jpg'
 import '../Styles/Work.css'
 import { Link } from 'react-router-dom';
 import WebFont from 'webfontloader';
+import Footer from '../components/Footer'
+import '../Styles/Home.css'
 
 WebFont.load({
    google: {
@@ -37,6 +39,7 @@ function Professional(){
                 </Row>
                 
             </Container>
+            <Footer/>
         </React.Fragment>
         
     )

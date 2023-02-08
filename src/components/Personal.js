@@ -9,6 +9,8 @@ import Germany from '../assets/Germany-2022/Tyler.jpg'
 import '../Styles/Work.css'
 import { Link } from 'react-router-dom';
 import WebFont from 'webfontloader';
+import Footer from '../components/Footer'
+import '../Styles/Home.css'
 
 WebFont.load({
    google: {
@@ -52,6 +54,7 @@ function Personal(){
                 </Row>
                 
             </Container>
+            <Footer/>
         </React.Fragment>
         
     )

@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import About from './components/About';
 import Home from './components/Home';
 import Professional from './components/Professional';
+import Contact from './components/Contact'
 import Personal from './components/Personal'
 import CopperCoin from './Pages/copperCoin';
 import GrandRapids from './Pages/grandRapids'
@@ -21,6 +22,7 @@ function App() {
           <Route path="/"  element={<Home/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/professional' element={<Professional/>}/>
+          <Route path='/contact' element={<Contact/>}/>
           <Route path='/personal' element ={<Personal/>}/>
           <Route path='/CopperCoin' element={<CopperCoin/>}/>
           <Route path='/GrandRapids' element={<GrandRapids/>}/>
