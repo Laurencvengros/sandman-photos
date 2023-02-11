@@ -4,7 +4,6 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Navigation from '../components/Navigation'
-import copperCoin from '../assets/copper-coin/Copper_Coin_Shop.jpg'
 import '../Styles/Work.css'
 import { Link } from 'react-router-dom';
 import WebFont from 'webfontloader';
@@ -41,7 +40,7 @@ function Professional(){
             <Container fluid className="containers">
                 
                 {data.map((data, k) => (
-                    <Row >
+                    <Row className="row" >
                     <Col key={k} className="col">
                         <Link to={data.view}>
                             

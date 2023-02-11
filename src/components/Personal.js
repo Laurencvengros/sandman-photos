@@ -11,6 +11,7 @@ import { Link } from 'react-router-dom';
 import WebFont from 'webfontloader';
 import Footer from '../components/Footer'
 import '../Styles/Home.css'
+import data from '../Data/personalData.js'
 
 WebFont.load({
    google: {
@@ -25,37 +26,27 @@ function Personal(){
 
     return(
         <React.Fragment>
-            <Navigation/>
-            <Container fluid className="containers">
-                <Row className="row">
-                    <Col className="col">
-                        <Link to="/grandRapids">
-                        
-                            <div className="imagebox">
-                            <img className=' resize ' src={SnowBus} alt='Snow Bus' />
-                                <div className="caption" style={{fontFamily: 'Sofia Sans Condensed'}}>GRAND RAPIDS</div>
-                            </div>
-                        </Link>
-                    </Col>
+        <Navigation/>
+       <Container fluid className="containers">
+           
+           {data.map((data, k) => (
+               <Row className="row" >
+               <Col key={k} className="col">
+                   <Link to={data.view}>
+                       
+                       <div className="imagebox">
+                        <img className=' resize ' src={data.pic} alt={data.name} />
+                           <div className="caption" style={{fontFamily: 'Sofia Sans Condensed'}}>{data.name}</div>
+                        </div>
+                    </Link>
+                </Col>
                 </Row>
-                
-            </Container>
-            <Container fluid className="containers">
-                <Row className="row">
-                    <Col className="col">
-                        <Link to="/germany2022">
-                            
-                            <div className="imagebox">
-                            <img className=' resize ' src={Germany} alt='Tyler with Mountasin' />
-                                <div className="caption" style={{fontFamily: 'Sofia Sans Condensed'}}>GERMANY 2022</div>
-                            </div>
-                        </Link>
-                    </Col>
-                </Row>
-                
-            </Container>
-            <Footer/>
-        </React.Fragment>
+           ))}
+            
+           
+       </Container>
+        <Footer/>
+    </React.Fragment> 
         
     )
     
