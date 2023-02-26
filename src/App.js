@@ -13,6 +13,7 @@ import CopperCoin from './Pages/copperCoin';
 import GrandRapids from './Pages/grandRapids'
 import Germany from './Pages/germany2022'
 import GRCG from './Pages/cityGym'
+import GymShoots from './Pages/gymShoots'
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path='/GrandRapids' element={<GrandRapids/>}/>
           <Route path='/germany2022' element={<Germany/>}/>
           <Route path='/cityGym' element={<GRCG/>}/>
+          <Route path='/gymShoots' element={<GymShoots/>}/>
 
           
         </Routes>

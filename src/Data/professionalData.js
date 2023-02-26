@@ -1,18 +1,25 @@
-import copperCoin from '../assets/copper-coin/Copper_Coin_Shop.jpg'
-import GRCG from '../assets/GRCG/GRCG_1.jpg'
+import GRCG_main from '../assets/copper-coin/copperCoin_main.jpg'
+import copperCoin_main from '../assets/GRCG/GRCG_1.jpg'
+import gymShoots_main from '../assets/gym-shoots/Connor4.jpg'
 
  const data = [
     {
         id: 1,
-        name: "COPPER COIN",
-        view:"/copperCoin",
-        pic: copperCoin
+        name: "MICHIGAN",
+        view:"/grandRapids",
+        pic: GRCG_main
     },
     {
         id: 2,
-        name: "GRAND RAPIDS CITY GYM",
-        view:"/cityGym",
-        pic: GRCG
+        name: "GERMANY 2022",
+        view:"/germany2022",
+        pic: copperCoin_main
+    },
+    {
+        id: 3,
+        name: "FITNESS",
+        view:"/gymShoots",
+        pic: gymShoots_main
     },
 ]
 
