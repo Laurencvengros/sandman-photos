@@ -3,10 +3,10 @@ import GRCG from '../assets/GRCG/GRCG_1.jpg'
 
  const data = [
     {
-    id: 1,
-    name: "COPPER COIN",
-    view:"/copperCoin",
-    pic: copperCoin
+        id: 1,
+        name: "COPPER COIN",
+        view:"/copperCoin",
+        pic: copperCoin
     },
     {
         id: 2,

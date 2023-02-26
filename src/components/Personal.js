@@ -4,14 +4,12 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Navigation from '../components/Navigation'
-import SnowBus from '../assets/GrandRapids/GR_SnowBus.jpg'
-import Germany from '../assets/Germany-2022/Tyler.jpg'
 import '../Styles/Work.css'
 import { Link } from 'react-router-dom';
 import WebFont from 'webfontloader';
 import Footer from '../components/Footer'
 import '../Styles/Home.css'
-import data from '../Data/personalData.js'
+import data from '../Data/personalData.js'                    
 
 WebFont.load({
    google: {

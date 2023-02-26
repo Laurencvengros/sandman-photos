@@ -1,12 +1,11 @@
-import React from "react";
-import GR from '../assets/GrandRapids/GR_SnowBus.jpg'
-import Germany from '../assets/Germany-2022/Tyler.jpg'
+import GR from '../assets/GrandRapids/GR_6.jpg'
+import Germany from '../assets/Germany-2022/germany10.jpg'
 
 
  const data = [
     {
         id: 1,
-        name: "GRAND RAPIDS",
+        name: "MICHIGAN",
         view:"/grandRapids",
         pic: GR
     },
