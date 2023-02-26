@@ -11,41 +11,35 @@ import GRCG8 from '../assets/GRCG/GRCG_8.jpg'
 const col1 = [
     {
         id: 1,
-        name: "copperCoin1",
-        view:"/grandRapids",
+        name: "GRCG1",
         pic: GRCG1
     },
     {
         id: 2,
-        name: "copperCoin7",
-        view:"/germany2022",
+        name: "GRCG7",
         pic: GRCG7
     },
     
     {
         id: 3,
-        name: "copperCoin3",
-        view:"/grandRapids",
+        name: "GRCG3",
         pic: GRCG3
     },
 ];
 const col2 = [
     {
         id: 1,
-        name: "copperCoin5",
-        view:"/germany2022",
+        name: "GRCG8",
         pic: GRCG8
     },
     {
         id: 2,
-        name: "copperCoin6",
-        view:"/germany2022",
+        name: "GRCG2",
         pic: GRCG2
     },
     {
         id: 3,
-        name: "copperCoin8",
-        view:"/germany2022",
+        name: "GRCG5",
         pic: GRCG5
     },
     
@@ -53,21 +47,15 @@ const col2 = [
 const col3 = [
     {
         id: 1,
-        name: "copperCoin4",
-        view:"/germany2022",
+        name: "GRCG4",
         pic: GRCG4
     },
     {
         id: 2,
-        name: "copperCoin2",
-        view:"/germany2022",
+        name: "GRCG6",
         pic: GRCG6
     },
-    
-    
-    
-
-]
+];
     
     
     

@@ -19,15 +19,6 @@ WebFont.load({
    }
  });
 
-// const data =[
-//     {
-//     id: 1,
-//     name: "COPPER COIN",
-//     view:'/copperCoin',
-//     pic: copperCoin,
-//     }
-// ]
-
 
 
 function Professional(){

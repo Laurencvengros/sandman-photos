@@ -17,32 +17,27 @@ const col1 = [
     {
         id: 1,
         name: "connor1",
-        view:"/grandRapids",
         pic: connor1
     },
     {
         id: 2,
         name: "jackson1",
-        view:"/germany2022",
         pic: jackson1
     },
     
     {
         id: 3,
         name: "connor2",
-        view:"/grandRapids",
         pic: connor2
     },
     {
         id: 4,
         name: "connor6",
-        view:"/grandRapids",
         pic: connor6
     },
     {
         id: 5,
         name: "conner4",
-        view:"/grandRapids",
         pic: connor4
     },
 ];
@@ -50,66 +45,47 @@ const col2 = [
     {
         id: 1,
         name: "jackson5",
-        view:"/germany2022",
         pic: jackson5
     },
     {
         id: 2,
         name: "connor3",
-        view:"/germany2022",
         pic: connor3
     },
     {
         id: 3,
         name: "jackson3",
-        view:"/germany2022",
         pic: jackson3
     },
     {
         id: 4,
         name: "connor7",
-        view:"/grandRapids",
         pic: connor7
     },
-    
-    
 ];
 const col3 = [
     {
         id: 1,
         name: "jackson2",
-        view:"/germany2022",
         pic: jackson2
     },
     {
         id: 2,
         name: "jackson4",
-        view:"/germany2022",
         pic: jackson4
     },
     {
         id: 3,
         name: "connor5",
-        view:"/germany2022",
         pic: connor5
     },
     {
         id: 4,
         name: "connor8",
-        view:"/grandRapids",
         pic: connor8
     },
+];
     
-    
-    
-
-]
-    
-    
-    
-
-
-
 export {col1};
 export {col2};
 export {col3};

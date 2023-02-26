@@ -2,6 +2,7 @@ import Navigation from '../components/Navigation'
 import React from 'react';
 import { MDBCol, MDBRow,} from 'mdb-react-ui-kit';
 import '../Styles/copperCoin.css'
+import Footer from '../components/Footer';
 import { col1 } from '../Data/grcgData'
 import { col2 } from '../Data/grcgData'
 import { col3 } from '../Data/grcgData'
@@ -45,7 +46,7 @@ export default function App() {
         
         
       </MDBRow>
-     
+     <Footer/>
     </React.Fragment>
   );
 }

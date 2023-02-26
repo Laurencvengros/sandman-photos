@@ -17,65 +17,56 @@ import GR14 from '../assets/GrandRapids/GR_14.jpg'
 const col1 = [
     {
         id: 1,
-        name: "copperCoin1",
-        view:"/grandRapids",
+        name: "GR1",
+
         pic: GR1
     },
     {
         id: 2,
-        name: "copperCoin7",
-        view:"/germany2022",
+        name: "GR2",
         pic: GR2
     },
     
     {
         id: 3,
-        name: "copperCoin3",
-        view:"/grandRapids",
+        name: "GR3",
         pic: GR3
     },
     {
         id: 4,
-        name: "copperCoin2",
-        view:"/germany2022",
+        name: "GR10",
         pic: GR10
     },
     {
         id: 5,
-        name: "copperCoin2",
-        view:"/germany2022",
+        name: "GR3",
         pic: GR13
     },
 ];
 const col2 = [
     {
         id: 1,
-        name: "copperCoin5",
-        view:"/germany2022",
+        name: "GR4",
         pic: GR4
     },
     {
         id: 2,
-        name: "copperCoin6",
-        view:"/germany2022",
+        name: "GR5",
         pic: GR5
     },
     {
         id: 3,
-        name: "copperCoin8",
-        view:"/germany2022",
+        name: "GR6",
         pic: GR6
     },
     {
         id: 4,
-        name: "copperCoin2",
-        view:"/germany2022",
+        name: "GR11",
         pic: GR11
     },
     {
         id: 5,
-        name: "copperCoin2",
-        view:"/germany2022",
+        name: "GR14",
         pic: GR14
     },
     
@@ -83,33 +74,25 @@ const col2 = [
 const col3 = [
     {
         id: 1,
-        name: "copperCoin4",
-        view:"/germany2022",
+        name: "GR7",
         pic: GR7
     },
     {
         id: 2,
-        name: "copperCoin2",
-        view:"/germany2022",
+        name: "GR8",
         pic: GR8
     },
     {
         id: 3,
-        name: "copperCoin2",
-        view:"/germany2022",
+        name: "GR9",
         pic: GR9
     },
     {
         id: 4,
-        name: "copperCoin2",
-        view:"/germany2022",
+        name: "GR12",
         pic: GR12
     },
-    
-    
-    
-
-]
+];
     
     
     
