@@ -1,3 +1,12 @@
 .footer{
-    
+    background-color: #e8e9e2;
+}
+
+a{
+    margin-right: 30px;
+}
+
+.footerIcons{
+    text-align: center;
+    line-height: 200px;
 }
