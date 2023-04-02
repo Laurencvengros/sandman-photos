@@ -6,6 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import '../Styles/Navbar.css'
 import WebFont from 'webfontloader';
+import logoIm from "../assets/logo.png"
 
 WebFont.load({
    google: {
@@ -21,7 +22,7 @@ return (
 
     <Navbar collapseOnSelect expand="lg" className='background'>
        <Container className="header" >
-       <NavLink className='logo' to="/sandman-photos" >*LOGO*</NavLink>
+       <NavLink className='logo' to="/sandman-photos" ><img className="logo" src={logoIm} alt=""></img></NavLink>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
            <Navbar.Collapse id="responsive-navbar-nav">
              <Nav className="ms-auto tab" >

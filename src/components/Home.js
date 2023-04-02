@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import homePhoto from '../assets/Self_Portrait.jpg';
+import homePhoto from '../assets/SelfPortrait.jpg';
 import '../Styles/Home.css'
 
 WebFont.load({
@@ -23,11 +23,11 @@ function Home() {
         <IconContext.Provider value={{ color: 'rgb(88, 131, 117)', size: '2em' }}>
             <Container fluid className="no-gutters">
                     <Row className="no-gutters">
+                      
                         <Col xs={12} sm={12} md={12} lg={6} className="no-gutters">
-                            
-                             <img className='img-fluid homeImg ' src={homePhoto} alt='self portrait' />
-                            
+                              <img className='img-fluid homeImg ' src={homePhoto} alt='self portrait' />
                         </Col>
+                      
                         <Col xs={12} sm={12} md={12} lg={6} >
                             <div className='heading' style={{fontFamily: 'Sofia Sans Condensed'}}>SANDMAN PHOTOGRAPHY</div>
                             <div className="margin">

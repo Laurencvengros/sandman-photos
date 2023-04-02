@@ -9,7 +9,7 @@ import copperCoin8 from '../assets/copper-coin/copperCoin_8.jpg'
 import copperCoin9 from '../assets/copper-coin/copperCoin_9.jpg'
 import copperCoin10 from '../assets/copper-coin/copperCoin_10.jpg'
 import copperCoin11 from '../assets/copper-coin/copperCoin_11.jpg'
-
+import copperCoin12 from '../assets/copper-coin/copperCoin_12.jpg'
 
 const col1 = [
     {
@@ -70,6 +70,11 @@ const col3 = [
         id: 3,
         name: "copperCoin11",
         pic: copperCoin11
+    },
+    {
+        id: 4,
+        name: "copperCoin12",
+        pic: copperCoin12
     },
 ];
     

@@ -63,7 +63,8 @@ function Contact(){
                 <h1 style={{fontFamily: 'Sofia Sans Condensed'}}> Contact Me</h1>
                 <hr/>
             </div>
-            <Container>
+            <div className='contact-container'>
+            <Container >
                 <Row >
                     <Col sm={12} md={6}>
                         <img className='img-fluid contact-img' src={contactPhoto} alt='self portrait' />
@@ -108,6 +109,7 @@ function Contact(){
                     </Col>
                 </Row>    
             </Container>
+            </div>
             <Footer/>
       </React.Fragment>
         

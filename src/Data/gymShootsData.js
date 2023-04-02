@@ -6,11 +6,15 @@ import connor5 from '../assets/gym-shoots/Connor5.jpg'
 import connor6 from '../assets/gym-shoots/Connor6.jpg'
 import connor7 from '../assets/gym-shoots/Connor7.jpg'
 import connor8 from '../assets/gym-shoots/Connor8.jpg'
-import jackson1 from '../assets/gym-shoots/WredeJackson1.jpg'
-import jackson2 from '../assets/gym-shoots/WredeJackson2.jpg' 
-import jackson3 from '../assets/gym-shoots/WredeJackson3.jpg'
-import jackson4 from '../assets/gym-shoots/WredeJackson4.jpg'
-import jackson5 from '../assets/gym-shoots/WredeJackson5.jpg'
+import connor9 from '../assets/gym-shoots/Connor9.jpg'
+import connor10 from '../assets/gym-shoots/Connor10.jpg'
+import connor11 from '../assets/gym-shoots/Connor11.jpg'
+import connor12 from '../assets/gym-shoots/Connor12.jpg'
+import jackson1 from '../assets/gym-shoots/Jackson1.jpg'
+import jackson2 from '../assets/gym-shoots/Jackson2.jpg' 
+import jackson3 from '../assets/gym-shoots/Jackson3.jpg'
+import jackson4 from '../assets/gym-shoots/Jackson4.jpg'
+import jackson5 from '../assets/gym-shoots/Jackson5.jpg'
 
 
 const col1 = [
@@ -37,9 +41,10 @@ const col1 = [
     },
     {
         id: 5,
-        name: "conner4",
-        pic: connor4
+        name: "conner11",
+        pic: connor11
     },
+    
 ];
 const col2 = [
     {
@@ -62,6 +67,21 @@ const col2 = [
         name: "connor7",
         pic: connor7
     },
+    {
+        id: 5,
+        name: "conner4",
+        pic: connor4
+    },
+    {
+        id: 6,
+        name: "conner9",
+        pic: connor9
+    },
+    {
+        id: 7,
+        name: "conner12",
+        pic: connor12
+    },
 ];
 const col3 = [
     {
@@ -83,6 +103,11 @@ const col3 = [
         id: 4,
         name: "connor8",
         pic: connor8
+    },
+    {
+        id: 5,
+        name: "conner10",
+        pic: connor10
     },
 ];
     

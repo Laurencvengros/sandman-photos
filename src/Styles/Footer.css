@@ -1,5 +1,5 @@
 .footer{
-    background-color: #e8e9e2;
+    background-color: #f0f1ed;
 }
 
 a{
@@ -7,6 +7,7 @@ a{
 }
 
 .footerIcons{
+    
     text-align: center;
     line-height: 200px;
 }

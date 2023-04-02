@@ -12,6 +12,11 @@ import GR11 from '../assets/GrandRapids/GR_11.jpg'
 import GR12 from '../assets/GrandRapids/GR_12.jpg'
 import GR13 from '../assets/GrandRapids/GR_13.jpg'
 import GR14 from '../assets/GrandRapids/GR_14.jpg'
+import GR15 from '../assets/GrandRapids/GR_15.jpg'
+import MI1 from '../assets/GrandRapids/MI_1.jpg'
+import MI2 from '../assets/GrandRapids/MI_2.jpg'
+import MI3 from '../assets/GrandRapids/MI_3.jpg'
+import MI4 from '../assets/GrandRapids/MI_4.jpg'
 
 
 const col1 = [
@@ -42,6 +47,16 @@ const col1 = [
         name: "GR3",
         pic: GR13
     },
+    {
+        id: 6,
+        name: "MI1",
+        pic: MI1
+    },
+    {
+        id: 7,
+        name: "MI4",
+        pic: MI4
+    },
 ];
 const col2 = [
     {
@@ -69,6 +84,11 @@ const col2 = [
         name: "GR14",
         pic: GR14
     },
+    {
+        id: 6,
+        name: "MI2",
+        pic: MI2
+    }
     
 ];
 const col3 = [
@@ -92,6 +112,16 @@ const col3 = [
         name: "GR12",
         pic: GR12
     },
+    {
+        id: 5,
+        name: "GR15",
+        pic: GR15
+    },
+    {
+        id: 6,
+        name: "MI3",
+        pic: MI3
+    }
 ];
     
     

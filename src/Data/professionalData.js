@@ -1,6 +1,6 @@
-import copperCoin_main from '../assets/copper-coin/copperCoin_main.jpg'
-import GRCG_main from '../assets/GRCG/GRCG_1.jpg'
-import gymShoots_main from '../assets/gym-shoots/Connor4.jpg'
+import copperCoin_main from '../assets/copper-coin/copperCoinMain.jpg'
+import GRCG_main from '../assets/GRCG/GRCGMain.jpg'
+import gymShoots_main from '../assets/gym-shoots/FitnessMain.jpg'
 
  const data = [
     {

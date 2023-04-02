@@ -1,24 +1,33 @@
 .header {
-    margin-bottom: 15px;
-    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    max-width: 100%;
 }
 
 .tabs{
-    margin-left: 35px;
+    margin-left: 15px;
     text-decoration: none;
     color: rgb(88, 131, 117);
-    font-size: 15px;
+    font-size: 14px;
     
 }
 
+.tabs:hover{
+    color: rgb(88, 131, 117)
+}
+
 .logo{
-    margin-left: -85px;
+    margin-right: 0px;
+    padding-left: 1vw;
+    position: relative;
     text-decoration: none;
     color: white;
     font-size: 20px;
+    text-align: left;
+    height: 70px;
       
 }
 
 .background{
-    background-color: #e8e9e2;
+    background-color: #f0f1ed;
 }

@@ -8,7 +8,7 @@ import Footer from '../components/Footer'
 import WebFont from 'webfontloader';
 import '../Styles/Home.css'
 import '../Styles/About.css'
-import equiptmentImg from '../assets/Equipment_Image.jpg'
+import equiptmentImg from '../assets/Equipment.jpg'
 
 WebFont.load({
     google: {
