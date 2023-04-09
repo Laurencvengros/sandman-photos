@@ -11,7 +11,6 @@ import '../Styles/Home.css'
 import '../Styles/About.css'
 import equiptmentImg from '../assets/Equipment.jpg'
 
-document.body.scrollTop = document.documentElement.scrollTop = 0;
 
 WebFont.load({
     google: {
