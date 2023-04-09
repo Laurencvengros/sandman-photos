@@ -1,0 +1,42 @@
+.margins{
+    margin-top: 50px;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    margin-left: 2.6vw;
+    margin-right: 2.6vw;
+}
+
+.headerimg{
+   height: 50%;
+   width: auto;
+}
+
+.App{
+    background-color: #f0f1ed;
+}
+
+.gallarySummary{
+    margin: 3vh;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+h4{
+    text-align: left;
+    color: rgb(88, 131, 117);
+}
+
+.summaryText{
+    font-size: 20px;
+    margin-block-start: 0em;
+    text-align: left;
+}
+
+a{
+    color: rgb(88, 131, 117);
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(73, 73, 73);
+}

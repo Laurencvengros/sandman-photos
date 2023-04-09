@@ -9,6 +9,14 @@
  
 }
 
+.homeLogo{
+    /* max-height: 60px; */
+    /* width: 10%; */
+    height: 100px;
+    object-fit: cover;
+    padding-bottom: 10px;
+}
+
 
 
 .no-gutters {
@@ -40,14 +48,16 @@
 }
 
 .margin{
-    margin-top: 360px;
+    margin-top: 30vh;
 }
 
 .homeIcons{
     display: block;
     text-align: center;
     line-height: 100px;
-    margin-top: 350px;
+    /* padding-bottom: 5%; */
+    margin-top: 20vh;
+
     
 }
 

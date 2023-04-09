@@ -4,7 +4,7 @@
 
 h1{
     /* margin-top: 50px; */
-    padding-top: 50px;
+    padding-top: 10px;
     text-align: center;
     font-size: 60px;
     background-color: #f0f1ed;
@@ -21,8 +21,10 @@ hr{
 }
 .contact-img{
     margin-top: 40px;
-    width: 35rem;
-    height: 45rem;
+    width: 100%;
+    min-width: 100%;
+    /* max-height: 100vh; */
+    height: auto;
 }
 
 .button{

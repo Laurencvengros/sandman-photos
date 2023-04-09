@@ -12,7 +12,7 @@ function Footer() {
         <IconContext.Provider value={{ color: 'rgb(88, 131, 117)', size: '2em' }}>
         <footer className="footer" >
         <div className='footerIcons'>
-            <a href= 'mailto:AlexSteinkamp22@gmail.com'>
+            <a href= 'mailto:alex@sandmanphotography.com'>
                 <FaEnvelope/>
             </a>
             <a href= 'https://instagram.com/sandman.photos'>

@@ -5,10 +5,13 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Navigation from '../components/Navigation'
 import Footer from '../components/Footer'
+import aboutMain from '../assets/aboutMeMain.jpg'
 import WebFont from 'webfontloader';
 import '../Styles/Home.css'
 import '../Styles/About.css'
 import equiptmentImg from '../assets/Equipment.jpg'
+
+document.body.scrollTop = document.documentElement.scrollTop = 0;
 
 WebFont.load({
     google: {
@@ -20,11 +23,16 @@ function About(){
     return(
         <React.Fragment >
             <Navigation/>
+            <div className="imageHeader">
+            <img className='headerimg' src={aboutMain} alt={aboutMain} />
+          </div>
+
+
             <div className="about-container">
                 <Container style={{fontFamily: 'Sofia Sans Condensed'}}>
                     <Row>
                         <Col sm={12} md={12} lg={12}>
-                                <strong className="about-header" > Alex Steinkamp</strong>
+                                <strong className="about-header" > ALEX STEINKAMP</strong>
                                     <div className='text-block'>
                                         <p style={{fontFamily: 'Sofia Sans Condensed'}} >
                                             Alex is a lifestyle, landscape, and street photographer based in 
@@ -40,7 +48,7 @@ function About(){
                                             permanent alias.
                                         </p>
                                     </div>
-                                    <strong className="list-header"> My Gear:</strong>
+                                    <strong className="list-header"> MY GEAR:</strong>
                                     <ul className="list">
                                         <li>Sony a7iii</li>
                                         <li>Sony 24mm f/1.4</li>

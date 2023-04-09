@@ -16,6 +16,7 @@
     /* height: 400px; */
     height: 50vh;
     width: 100px;
+
 } 
 
 
@@ -31,9 +32,14 @@
     object-fit: cover;
     width:100%;
     margin: 0px;
-    
-      
-    
+  }
+
+  .imageHeader img{
+    height: 50vh;
+    width: 93.5vw;
+    object-fit: cover;
+    position: relative;
+    /* z-index: -999; */
   }
 
 
@@ -60,5 +66,9 @@
       font-size:30px;
       
       font-family:"Times New Roman", Times, serif;
-      margin-left:40px;
+      margin-left: 40px;
   }
+
+  
+  
+  

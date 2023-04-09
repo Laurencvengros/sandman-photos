@@ -47,11 +47,11 @@ function Contact(){
     function emailSender(e){
         e.preventDefault();
 
-        emailjs.sendForm('service_yta3jrp', 'template_w8rd179', form.current, '05H9DAvQJMMh11o3g' )
+        emailjs.sendForm('service_0hvk1gn', 'template_fkpbejq', form.current, '01pxIyhU2Oa-7UY_L' )
         .then((response) =>{
             setContactMessage('Sent!');
         }, (error) => {
-            setContactMessage('Error sending message, please contact me directly at L.Cvengros@icloud.com');
+            setContactMessage('Error sending message, please contact me directly at alex@sandmanphotography.com');
         })
     }
 
@@ -103,8 +103,8 @@ function Contact(){
                             </Form.Group>
                             {contactMessage && <p >{contactMessage}</p>}   
                         </Form>  
-                        <Button className='button' variant="light" type="submit"
-                            >Submit
+                        <Button className='button' variant="light" type="submit" onClick={emailSender}>
+                            Submit
                         </Button>
                     </Col>
                 </Row>    

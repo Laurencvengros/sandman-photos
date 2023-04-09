@@ -8,6 +8,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import homePhoto from '../assets/SelfPortrait.jpg';
+import splogo from '../assets/logo.png';
 import '../Styles/Home.css'
 
 WebFont.load({
@@ -29,8 +30,10 @@ function Home() {
                         </Col>
                       
                         <Col xs={12} sm={12} md={12} lg={6} >
-                            <div className='heading' style={{fontFamily: 'Sofia Sans Condensed'}}>SANDMAN PHOTOGRAPHY</div>
+                            <div className='heading ' style={{fontFamily: 'Sofia Sans Condensed'}}>SANDMAN PHOTOGRAPHY</div>
                             <div className="margin">
+                                <img className= 'img-fluid homeLogo' src = {splogo} alt='logo' />
+                                <br></br>
                                 <Link className="links" to="/professional" style={{fontFamily: 'Sofia Sans Condensed'}}>PROFESSIONAL |</Link>
                                 <Link className="links" to="/personal" style={{fontFamily: 'Sofia Sans Condensed'}}>PERSONAL |</Link>
                                 <Link className="links" to="/about" style={{fontFamily: 'Sofia Sans Condensed'}}>ABOUT |</Link>
@@ -46,7 +49,7 @@ function Home() {
                                     <FaInstagram/> 
                                 </a>
                             
-                                <a href= 'https://www.facebook.com/profile.php?id=100089348201674'>
+                                <a style={{marginRight:"0px"}}  href= 'https://www.facebook.com/profile.php?id=100089348201674'>
                                 <FaFacebook/> 
                                 </a>
                             </div>
